@@ -1,6 +1,8 @@
 # LoginApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+<img src="Screenshot 2023-07-24 185423.png">
+<img src="Screenshot 2023-07-24 185439.png">
 
 ## Development server
 

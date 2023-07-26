@@ -38,7 +38,7 @@ export class LoginComponent implements OnInit {
       };
       console.log(this.signupUsers);
   }
-  isLoggedIn = false; // Set to true after successful login
+  isLoggedIn = false; 
 
   onLogin() {
     const isUserExist = this.signupUsers.find(
@@ -48,7 +48,7 @@ export class LoginComponent implements OnInit {
     if (isUserExist !== undefined) {
       alert("User Login Successfully");
       this.isLoggedIn = true;
-      this.router.navigate(['/dashboard']); // Navigate after successful login.
+      this.router.navigate(['/dashboard']); 
     } else {
       alert('Wrong Credentials');
     }
